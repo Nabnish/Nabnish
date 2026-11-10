@@ -11,7 +11,7 @@ query($login: String!) {
   user(login: $login) {
     repositories(first: 100, ownerAffiliations: OWNER) {
       totalCount
-      nodes { stargazers { totalCount } }
+      nodes { stargazerCount }
     }
     followers { totalCount }
     contributionsCollection {
@@ -48,7 +48,8 @@ repositories = user["repositories"]
 stats = {
     "repo_data": repositories["totalCount"],
     "star_data": sum(
-        repo["stargazers"]["totalCount"] for repo in repositories["nodes"]
+    repo["stargazerCount"] for repo in repositories["nodes"]
+
     ),
     "contrib_data": user["contributionsCollection"]["contributionCalendar"]["totalContributions"],
     "follower_data": user["followers"]["totalCount"],
