@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="985" height="530" viewBox="0 0 985 530">
+<style>
+  text { font-family: Consolas, "Courier New", monospace; white-space: pre; }
+  .key { fill: #60a5fa; }
+  .value { fill: #e5e7eb; }
+  .muted { fill: #8793a5; }
+  .accent { fill: #38bdf8; }
+  .green { fill: #a3e635; }
+  .line { fill: #64748b; }
+  .ascii { fill: #93c5fd; font-size: 15px; }
+</style>
+<rect width="985" height="530" rx="16" fill="#090d14" stroke="#334155" stroke-width="1.2"/>
+<rect x="15" y="15" width="350" height="500" rx="11" fill="#0f1724"/>
+<text x="30" y="43" class="muted" font-size="13">[ NABNISH@GITHUB ~ ]</text>
+<text x="30" y="83" class="ascii">
+<tspan x="30" dy="0">             .------.</tspan>
+<tspan x="30" dy="19">          .-'  .--.  '-.</tspan>
+<tspan x="30" dy="19">         /   .'    '.   \</tspan>
+<tspan x="30" dy="19">        |   /  .--.  \   |</tspan>
+<tspan x="30" dy="19">        |  |  ( .. )  |  |</tspan>
+<tspan x="30" dy="19">        |   \  '--'  /   |</tspan>
+<tspan x="30" dy="19">         \   '.__.'    /</tspan>
+<tspan x="30" dy="19">          '-.______.-'</tspan>
+<tspan x="30" dy="19">              ||</tspan>
+<tspan x="30" dy="19">         _____||_____</tspan>
+<tspan x="30" dy="19">        /   SYSTEM   \</tspan>
+<tspan x="30" dy="19">       /____ONLINE____\</tspan>
+<tspan x="30" dy="19">          /  ||  \</tspan>
+<tspan x="30" dy="19">         /___||___\</tspan>
+<tspan x="30" dy="19">            /  \</tspan>
+<tspan x="30" dy="19">           /____\</tspan>
+</text>
+<text x="30" y="435" class="accent" font-size="14">BUILD  /  BREAK  /  UNDERSTAND</text>
+<text x="30" y="462" class="muted" font-size="12">Computer Science • Chennai, India</text>
+<text x="30" y="487" class="muted" font-size="12">Curiosity-driven development</text>
+
+<text x="390" y="34" fill="#f8fafc" font-size="19">nabnish@github</text>
+<text x="560" y="34" class="line" font-size="15">———————————————————————————————</text>
+
+<text x="390" y="66" class="muted">. </text><text x="410" y="66" class="key">OS</text><text x="440" y="66" class="muted">: .............................. </text><text x="690" y="66" class="value">Windows • Linux</text>
+<text x="390" y="90" class="muted">. </text><text x="410" y="90" class="key">Role</text><text x="445" y="90" class="muted">: ........................... </text><text x="690" y="90" class="value">CS Student / Developer</text>
+<text x="390" y="114" class="muted">. </text><text x="410" y="114" class="key">Focus</text><text x="455" y="114" class="muted">: .......................... </text><text x="690" y="114" class="value">Full Stack • Systems • AI/ML</text>
+<text x="390" y="138" class="muted">. </text><text x="410" y="138" class="key">Editor</text><text x="460" y="138" class="muted">: ......................... </text><text x="690" y="138" class="value">VS Code</text>
+
+<text x="390" y="177" class="muted">. </text><text x="410" y="177" class="key">Languages.Programming</text><text x="590" y="177" class="muted">: </text><text x="610" y="177" class="value">Go, C/C++, Java, Python, TypeScript</text>
+<text x="390" y="201" class="muted">. </text><text x="410" y="201" class="key">Languages.Web</text><text x="535" y="201" class="muted">: ........... </text><text x="650" y="201" class="value">React, Next.js, HTML, CSS</text>
+<text x="390" y="225" class="muted">. </text><text x="410" y="225" class="key">Backend</text><text x="475" y="225" class="muted">: ...................... </text><text x="650" y="225" class="value">FastAPI, Node.js, Flask</text>
+<text x="390" y="249" class="muted">. </text><text x="410" y="249" class="key">Interests</text><text x="480" y="249" class="muted">: ..................... </text><text x="650" y="249" class="value">WebRTC, Distributed Systems</text>
+
+<text x="390" y="289" fill="#f8fafc" font-size="16">- CONTACT</text>
+<text x="500" y="289" class="line">————————————————————————————————————————————</text>
+<text x="390" y="315" class="muted">. </text><text x="410" y="315" class="key">GitHub</text><text x="465" y="315" class="muted">: .................................... </text><text x="760" y="315" class="accent">github.com/Nabnish</text>
+<text x="390" y="339" class="muted">. </text><text x="410" y="339" class="key">Projects</text><text x="475" y="339" class="muted">: ................................ </text><text x="760" y="339" class="value">github.com/Nabnish?tab=repositories</text>
+
+<text x="390" y="383" fill="#f8fafc" font-size="16">- GITHUB STATS</text>
+<text x="530" y="383" class="line">————————————————————————————————————————————</text>
+<text x="390" y="411" class="muted">. </text><text x="410" y="411" class="key">Repositories</text><text x="510" y="411" class="muted">: ................. </text><text x="690" y="411" class="value" id="repo_data">—</text><text x="760" y="411" class="key">Stars</text><text x="805" y="411" class="muted">: ........ </text><text x="900" y="411" class="value" id="star_data">—</text>
+<text x="390" y="439" class="muted">. </text><text x="410" y="439" class="key">Contributions</text><text x="520" y="439" class="muted">: .............. </text><text x="690" y="439" class="value" id="contrib_data">—</text><text x="760" y="439" class="key">Followers</text><text x="840" y="439" class="muted">: ... </text><text x="900" y="439" class="value" id="follower_data">—</text>
+<text x="390" y="483" class="muted">. </text><text x="410" y="483" class="key">STATUS</text><text x="470" y="483" class="muted">: ................................... </text><text x="760" y="483" class="green">ONLINE / BUILDING</text>
+<text x="390" y="510" class="muted" font-size="11">Last refreshed automatically by GitHub Actions</text>
+</svg>
